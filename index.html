@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+
+<html lang="en">
+	<head>
+		<meta charset="utf-8" />
+
+		<title>Problem Set 5</title>
+		<meta name="description" content="Problem Set 5" />
+		<meta name="author" content="Robert Connot" />
+
+		<link rel="stylesheet" href="styles.css" />
+		<link
+			href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css"
+			rel="stylesheet"
+			integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl"
+			crossorigin="anonymous"
+		/>
+	</head>
+
+	<body>
+		<div class="input-container">
+			<h2>Enter a date & time:</h2>
+			<input id="date-input" type="date" />
+			<input id="time-input" type="time" />
+			<button id="submission-button">Enter</button>
+			<p><em> - Automatically defaults to your local timezone</em></p>
+		</div>
+		<div class="container">
+			<div class="row">
+				<div class="col-sm">
+					<h3>Los Angeles</h3>
+					<p id="los-angeles"></p>
+				</div>
+				<div class="col-sm">
+					<h3>New York</h3>
+					<p id="new-york"></p>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-sm">
+					<h3>London</h3>
+					<p id="london"></p>
+				</div>
+				<div class="col-sm">
+					<h3>Istanbul</h3>
+					<p id="istanbul"></p>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-sm">
+					<h3>Mumbai</h3>
+					<p id="mumbai"></p>
+				</div>
+				<div class="col-sm">
+					<h3>Tokyo</h3>
+					<p id="tokyo"></p>
+				</div>
+			</div>
+		</div>
+	</body>
+	<script src="moment.js"></script>
+	<script src="moment-timezone.js"></script>
+	<script src="times.js"></script>
+</html>
