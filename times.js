@@ -11,7 +11,7 @@ var losAngeles = document.getElementById("los-angeles");
 var newYork = document.getElementById("new-york");
 var london = document.getElementById("london");
 var istanbul = document.getElementById("istanbul");
-var mumbai = document.getElementById("mumbai");
+var kathmandu = document.getElementById("kathmandu");
 var tokyo = document.getElementById("tokyo");
 
 submissionButton.addEventListener("click", checkTime);
@@ -33,7 +33,7 @@ function checkTime() {
 		.tz("Europe/Istanbul")
 		.format("h:mma MMMM Do YYYY");
 
-	mumbai.innerHTML = moment(`${dateInput.value} ${timeInput.value}`)
+	kathmandu.innerHTML = moment(`${dateInput.value} ${timeInput.value}`)
 		.tz("Asia/Kathmandu")
 		.format("h:mma MMMM Do YYYY");
 
